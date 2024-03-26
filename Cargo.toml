@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    'node',
+    'pallets/dex',
+    'pallets/erc1155',
+    'traits',
+    'runtime',
+]
+[profile.release]
+panic = 'unwind'
